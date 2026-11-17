@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="ravenlogin"
+version="0.1.0"
+displayName="Raven Login"
+authors="Raven Network"
+description="Server-only account authentication via Raven Network website HTTPS API."
+[[dependencies.ravenlogin]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="SERVER"
+[[dependencies.ravenlogin]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="SERVER"
